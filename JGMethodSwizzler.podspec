@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/JonasGessner/JGMethodSwizzler'
   s.license = 'MIT'
   s.author = 'Jonas Gessner'
-  s.source = :git => 'https://github.com/PAM-AS/JGMethodSwizzler', :tag => 'v2.0.1'
+  s.source = {:git => 'https://github.com/PAM-AS/JGMethodSwizzler', :tag => 'v2.0.1'}
   s.source_files = 'JGMethodSwizzler/*.{h,m}'
   s.requires_arc = true
 end
